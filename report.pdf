@@ -1,0 +1,30 @@
+Report: Binance Futures Bot - Sumanth
+-------------------------------------
+
+This bot implements core and advanced orders for Binance USDT-M Futures:
+
+1. Market Orders:
+   - Immediate execution at market price
+   - CLI driven
+
+2. Limit Orders:
+   - Set specific price orders
+   - CLI driven
+
+3. Advanced Orders:
+   - OCO: Place Take-Profit and Stop orders simultaneously
+   - TWAP: Spread large orders over time for minimal impact
+   - Grid: Buy/Sell in levels around base price
+
+4. Logging:
+   - All actions logged to bot.log
+   - Dry-run mode available
+
+5. Testing:
+   - Unit tests run with mock client
+   - No API calls required
+
+6. Example Screenshots (dry-run):
+   - MARKET order output
+   - LIMIT order output
+   - TWAP order slices

@@ -1,0 +1,4 @@
+2025-09-10 12:00:01 | INFO | binance_bot | place_market_order | Attempting MARKET order BTCUSDT BUY qty=0.001 dry_run=True
+2025-09-10 12:00:01 | INFO | binance_bot | place_market_order | Order response: {'orderId': 123456, 'status': 'NEW'}
+2025-09-10 12:01:10 | INFO | binance_bot | twap_execute | Placed slice 1/4 orderId=123456
+2025-09-10 12:01:20 | INFO | binance_bot | twap_execute | Placed slice 2/4 orderId=123457
